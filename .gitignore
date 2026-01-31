@@ -1,0 +1,16 @@
+.venv/
+venv/
+.idea/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.log
+
+*.swp
+*.swo
+
+.DS_Store
+**/.DS_Store

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "id_telegram": 1323047172,
+    "username": "KravchenkoDanil",
+    "price": 0,
+    "configs_count": 0,
+    "subscription_start": null,
+    "subscription_end": null,
+    "preliminary_price": 0,
+    "preliminary_configs_count": 0,
+    "preliminary_subscription_start": null,
+    "preliminary_subscription_end": null,
+    "preliminary_type_pay": null,
+    "payment_status": null,
+    "blacklist": null
+  },
+  {
+    "id": 2,
+    "id_telegram": 7926090829,
+    "username": "Tunle_Support",
+    "price": 0,
+    "configs_count": 0,
+    "subscription_start": null,
+    "subscription_end": null,
+    "preliminary_price": 0,
+    "preliminary_configs_count": 0,
+    "preliminary_subscription_start": null,
+    "preliminary_subscription_end": null,
+    "preliminary_type_pay": null,
+    "payment_status": null,
+    "blacklist": null
+  },
+  {
+    "id": 3,
+    "id_telegram": 7655811615,
+    "username": "zxc_mashonka",
+    "price": 1200,
+    "configs_count": 8,
+    "subscription_start": "2026-01-31",
+    "subscription_end": "2026-07-30",
+    "preliminary_price": 1200,
+    "preliminary_configs_count": 0,
+    "preliminary_subscription_start": null,
+    "preliminary_subscription_end": "2026-10-30",
+    "preliminary_type_pay": "subscription_renewal",
+    "payment_status": null,
+    "blacklist": true
+  }
+]
