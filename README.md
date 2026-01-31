@@ -6,7 +6,7 @@
 
 ## Демонстрация работы
 
-<video src="assets/demonstration.mp4" controls width="600">
+<video src="https://github.com/FoKey-Junior/Telegram-Store/raw/main/assets/demonstration.mp4" controls width="600">
 Ваш браузер не поддерживает воспроизведение видео. Скачайте его <a href="assets/demonstration.mp4">здесь</a>.
 </video>
 
