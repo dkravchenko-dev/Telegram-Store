@@ -2,275 +2,277 @@
 
 # 🛒 Telegram Store
 
-**Автоматизированный магазин цифровых товаров в Telegram**
+**Automated Digital Goods Store in Telegram**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![aiogram](https://img.shields.io/badge/aiogram-3.x-green.svg)](https://docs.aiogram.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[Описание](#описание) • [Функциональность](#функциональность) • [Технологии](#технологии) • [Установка](#установка) • [Настройка](#настройка)
+[Description](#description) • [Features](#features) • [Tech Stack](#tech-stack) • [Installation](#installation) • [Configuration](#configuration)
 
 ---
 
 </div>
 
-## Описание
+## Description
 
-**Telegram Store** - это Telegram-бот на Python с использованием [aiogram](https://docs.aiogram.dev/), который позволяет организовать магазин цифровых товаров. Бот предназначен для продажи конфигураций и других цифровых товаров за реальные деньги с разделением пользователей на обычных и администраторов.
+**Telegram Store** is a Python-based Telegram bot built with the [aiogram](https://docs.aiogram.dev/) framework, designed to set up a fully automated digital goods store. The bot allows you to sell configuration files and other digital products for real money, featuring distinct access levels for standard users and administrators.
 
-### Основные возможности
+### Key Features
 
-- **Полная автоматизация** продаж цифровых товаров в Telegram
-- **Встроенная платежная система** для приема оплаты
-- **Административная панель** для управления товарами и пользователями
-- **Система подписок** с возможностью продления
-- **Безопасность** и контроль доступа
-- **Интуитивный интерфейс** для пользователей
+- **Full Automation** of digital product sales within Telegram
+- **Built-in Payment Gateway** for seamless payment processing
+- **Admin Dashboard** for comprehensive product and user management
+- **Subscription System** with flexible renewal options
+- **Robust Security** and granular access control
+- **Intuitive Interface** optimized for a smooth user experience
 
 ---
 
-## Демонстрация работы
+## Demo
 
 <video src="https://github.com/user-attachments/assets/e214934d-8b9b-49dc-aaaf-d3dff49f6774" controls width="600">
-Ваш браузер не поддерживает воспроизведение видео. Скачайте его <a href="assets/demonstration.mp4">здесь</a>.
+Your browser does not support the video tag. Download it <a href="assets/demonstration.mp4">here</a>.
 </video>
 
 ---
 
-## Функциональность
+## Features
 
-### Обычные пользователи
+### Standard Users
 
 <div align="center">
 
-| Функция | Описание |
+| Feature | Description |
 |:--------|:---------|
-| **Ознакомление с сервисом** | Просмотр информации о сервисе и инструкций по использованию |
-| **Каталог товаров** | Просмотр доступных товаров с описаниями и ценами |
-| **Покупка товаров** | Покупка нужного количества цифровых товаров |
-| **Управление подписками** | Продление или докупка подписки при необходимости |
-| **Профиль и история** | Управление своим профилем и просмотр истории покупок |
+| **Service Overview** | View general information about the platform and setup guides |
+| **Product Catalog** | Browse available items along with their descriptions and prices |
+| **Purchase Items** | Buy the desired quantity of digital goods instantly |
+| **Subscription Management** | Extend or purchase additional subscription tiers as needed |
+| **Profile & History** | Manage personal account details and review purchase history |
 
 </div>
 
-### Администратор
+### Administrators
 
 <div align="center">
 
-| Функция | Описание |
+| Feature | Description |
 |:--------|:---------|
-| **Управление товарами** | Добавление, удаление и редактирование товаров |
-| **Управление пользователями** | Просмотр всех пользователей и их заказов |
-| **Контроль оплаты** | Проверка достоверности оплаты пользователя |
-| **Блокировка пользователей** | Блокировка пользователя в один клик при нарушениях или мошенничестве |
-| **Финансы** | Управление финансами магазина |
-| **Уведомления** | Отправка уведомлений пользователям |
+| **Product Management** | Add, remove, and update digital goods |
+| **User Administration** | View all registered users and track their orders |
+| **Payment Verification** | Validate and confirm user payment statuses |
+| **User Banning** | One-click user restriction in case of violations or fraudulent activity |
+| **Financial Tracking** | Monitor and manage the store's revenue stream |
+| **Broadcast Notifications** | Send bulk announcements and direct messages to users |
 
 </div>
 
 ---
 
-## Зачем нужен бот
+## Why Choose This Bot
 
-- **Автоматизация продаж** - полная автоматизация процесса продажи цифровых товаров в Telegram
-- **Упрощение управления** - упрощение управления товарами и подписками
-- **Безопасность** - быстрый контроль оплаты и обеспечение безопасности пользователей
-- **Разделение прав** - четкое разделение прав доступа между пользователями и администраторами
+- **Sales Automation:** Eliminates manual processing by completely automating the transaction pipeline within Telegram.
+- **Simplified Management:** Streamlines how you organize your product listings and handle active subscriptions.
+- **Enhanced Security:** Offers instant payment status monitoring to protect both the seller and the consumer.
+- **Role Separation:** Enforces a clean division of privileges between customers and system administrators.
 
 ---
 
-## Технологии
+## Tech Stack
 
 <div align="center">
 
-| Технология | Версия | Назначение |
+| Technology | Version | Purpose |
 |:----------|:-------|:-----------|
-| **Python** | 3.11+ | Основной язык программирования |
-| **aiogram** | 3.x | Асинхронный фреймворк для работы с Telegram Bot API |
-| **JSON** | - | Хранение данных всех пользователей в JSON-файле |
-| **Платежная система** | - | Собственная платежная система для оплаты цифровых товаров |
+| **Python** | 3.11+ | Core programming language |
+| **aiogram** | 3.x | Asynchronous framework for the Telegram Bot API |
+| **JSON** | - | Local file-based storage for user data profiles |
+| **Payment Gateway** | - | Custom integration for handling digital product transactions |
 
 </div>
 
 ---
 
-## Установка
+## Installation
 
-### Предварительные требования
+### Prerequisites
 
-- Python 3.11 или выше
-- pip (менеджер пакетов Python)
+- Python 3.11 or higher
+- pip (Python package manager)
 - Git
 
-### Шаги установки
+### Setup Steps
 
-1. **Клонируйте репозиторий**
+1. **Clone the repository**
 
    ```bash
    git clone <repository-url>
    cd Telegram-Store
    ```
 
-2. **Создайте виртуальное окружение** (рекомендуется)
+2. **Create a virtual environment** (recommended)
 
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate  # Linux/macOS
-   # или
+   # or
    .venv\Scripts\activate  # Windows
    ```
 
-3. **Установите зависимости**
+3. **Install dependencies**
 
-   Для **Linux**:
+   For **Linux**:
    ```bash
    pip install -r requirements_linux.txt
    ```
 
-   Для **macOS**:
+   For **macOS**:
    ```bash
    pip install -r requirements_mac.txt
    ```
 
 ---
 
-## Настройка
+## Configuration
 
-### Получение токена бота
+### Obtaining a Bot Token
 
-1. Найдите [@BotFather](https://t.me/BotFather) в Telegram
-2. Отправьте команду `/newbot`
-3. Следуйте инструкциям для создания бота
-4. Скопируйте полученный токен
+1. Find [@BotFather](https://t.me/BotFather) on Telegram.
+2. Send the `/newbot` command.
+3. Follow the instructions to configure your bot's name and username.
+4. Copy the generated API token.
 
-### Конфигурация
+### Configuration Settings
 
-Откройте файл `app/config.py` и заполните необходимые параметры:
+Open `app/config.py` and populate the required parameters:
 
 ```python
-TOKEN_BOT_USERS = "YOUR_BOT_TOKEN_HERE"  # Токен вашего бота
-ID_ADMIN = 123456789  # Ваш Telegram ID (можно узнать у @userinfobot)
-SUPPORT_PROFILE = "@your_support_username"  # Username для поддержки
+TOKEN_BOT_USERS = "YOUR_BOT_TOKEN_HERE"  # Your Telegram bot token
+ID_ADMIN = 123456789  # Your personal Telegram ID (retrieve via @userinfobot)
+SUPPORT_PROFILE = "@your_support_username"  # Telegram handle for customer support
 ```
 
-### Структура данных
+### Data Structure
 
-Убедитесь, что файл `database/users.json` существует. Бот автоматически создаст необходимую структуру при первом запуске.
+Ensure that the `database/users.json` file is present. The bot will automatically initialize the required JSON structure on its initial run if it doesn't exist.
 
 ---
 
-## Запуск
+## Running the Bot
 
-### Простой запуск
+### Standard Launch
 
 ```bash
 python main.py
 ```
 
-### Запуск в фоновом режиме (Linux/macOS)
+### Running in the Background (Linux/macOS)
 
 ```bash
 chmod +x start.sh
 ./start.sh
 ```
 
-Скрипт `start.sh` автоматически:
-- Останавливает предыдущий процесс бота
-- Активирует виртуальное окружение
-- Запускает бота в фоновом режиме
-- Сохраняет логи в `output.log`
+The `start.sh` script automatically handles the following:
+- Terminates any previously running instance of the bot
+- Activates the virtual environment
+- Launches the bot execution process in the background
+- Pipes all runtime logs into `output.log`
 
 ---
 
-## Структура проекта
+## Project Structure
 
 ```
 Telegram-Store/
 ├── app/
-│   ├── config.py              # Конфигурация бота
-│   ├── router.py              # Маршрутизация handlers
-│   ├── handlers/              # Обработчики команд и сообщений
-│   │   ├── start.py           # Команда /start
-│   │   ├── admin.py           # Административные функции
-│   │   ├── home.py            # Главное меню
-│   │   ├── subscribe.py       # Подписки
-│   │   ├── subscription.py   # Управление подписками
-│   │   ├── extension.py      # Продление подписки
-│   │   ├── settings.py        # Настройки
-│   │   ├── edit.py            # Редактирование товаров
-│   │   ├── add.py             # Добавление товаров
-│   │   ├── remove.py          # Удаление товаров
-│   │   ├── description.py     # Описания товаров
-│   │   └── instruction.py     # Инструкции
-│   ├── keyboards/             # Клавиатуры для интерфейса
+│   ├── config.py              # Bot configuration settings
+│   ├── router.py              # Handler routing layer
+│   ├── handlers/              # Command and message handlers
+│   │   ├── start.py           # /start command handler
+│   │   ├── admin.py           # Administrative tools
+│   │   ├── home.py            # Main navigation menu
+│   │   ├── subscribe.py       # Subscription pathways
+│   │   ├── subscription.py    # Subscription management
+│   │   ├── extension.py       # Subscription renewal workflows
+│   │   ├── settings.py        # Application settings
+│   │   ├── edit.py            # Product updates
+│   │   ├── add.py             # Product creation
+│   │   ├── remove.py          # Product deletion
+│   │   ├── description.py     # Product description templates
+│   │   └── instruction.py     # Guide templates
+│   ├── keyboards/             # Inline and reply UI keyboards
 │   │   ├── admin_panel.py
 │   │   ├── buy_configs.py
 │   │   ├── edit_configs.py
 │   │   ├── remove_configs.py
 │   │   ├── subscription_form.py
 │   │   └── ...
-│   ├── services/              # Бизнес-логика
-│   │   ├── payments/          # Платежная система
+│   ├── services/              # Core business logic
+│   │   ├── payments/          # Payment pipeline integrations
 │   │   │   ├── add.py
 │   │   │   ├── buy.py
 │   │   │   └── renewal.py
 │   │   ├── form_payment.py
 │   │   ├── move_files.py
 │   │   └── remove.py
-│   ├── texts/                 # Текстовые шаблоны
+│   ├── texts/                 # Static text copy and templates
 │   │   ├── buttons.py
 │   │   └── templates.py
-│   └── img/                   # Изображения для инструкций
+│   └── img/                   # Graphic assets for instructions
 │       ├── android/
 │       ├── ios/
 │       ├── windows/
 │       └── mac os/
 ├── database/
-│   ├── users.json             # База данных пользователей
-│   ├── users_manager.py       # Менеджер пользователей
-│   └── configs/               # Конфигурационные файлы
-│       ├── conf/              # .conf файлы
-│       ├── png/               # QR-коды
-│       ├── vless.txt          # VLESS конфигурации
+│   ├── users.json             # Flat-file user database
+│   ├── users_manager.py       # Database abstraction manager
+│   └── configs/               # System configuration assets
+│       ├── conf/              # .conf files
+│       ├── png/               # Generated QR codes
+│       ├── vless.txt          # VLESS configurations
 │       └── creation_qr.py
-├── main.py                    # Точка входа
-├── requirements_linux.txt     # Зависимости для Linux
-├── requirements_mac.txt       # Зависимости для macOS
-├── start.sh                   # Скрипт запуска
-└── README.md                  # Документация
+├── main.py                    # Application entry point
+├── requirements_linux.txt     # Linux environment dependencies
+├── requirements_mac.txt       # macOS environment dependencies
+├── start.sh                   # Process management script
+└── README.md                  # System documentation
 ```
 
 ---
 
-## Безопасность
+## Security
 
-- **Никогда не публикуйте** файл `app/config.py` с реальными токенами
-- Добавьте `app/config.py` в `.gitignore`
-- Храните токены в переменных окружения или секретах
-- Регулярно проверяйте логи на подозрительную активность
-
----
-
-## Поддержка
-
-Если у вас возникли вопросы или проблемы:
-
-1. Проверьте Issues на наличие похожих проблем
-2. Создайте новый Issue с описанием проблемы
-3. Свяжитесь с поддержкой через `SUPPORT_PROFILE` (указан в конфигурации)
+- **Never expose or commit** the `app/config.py` file containing active production tokens.
+- Ensure `app/config.py` is safely appended to your `.gitignore` file.
+- Manage sensitive tokens using system environment variables or secure vault secrets.
+- Periodically inspect execution logs to monitor for unauthorized or anomalous activity.
 
 ---
 
-## Лицензия
+## Support
 
-Этот проект распространяется под лицензией MIT. Подробности см. в файле `LICENSE`.
+If you encounter any issues or have inquiries:
+
+1. Browse the repository's open/closed Issues to check if your problem has already been addressed.
+2. Open a new Issue detailing your bug report or feature request.
+3. Reach out to the support desk directly using the `SUPPORT_PROFILE` handle specified in your configuration.
+
+---
+
+## License
+
+This project is open-source software licensed under the MIT License. For more information, please refer to the `LICENSE` file.
 
 ---
 
 <div align="center">
 
-**Сделано с ❤️ для автоматизации продаж**
+**Built with ❤️ to streamline and automate your sales workflow**
 
-⭐ Если проект был полезен, поставьте звезду!
+⭐ If this repository helped you, consider giving it a star!
 
 </div>
+```
+ soul
